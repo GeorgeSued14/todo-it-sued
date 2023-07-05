@@ -1,0 +1,12 @@
+.task {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid rgb(104, 104, 104);
+
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #fff;
+  }
+}

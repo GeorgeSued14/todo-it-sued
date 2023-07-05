@@ -1,0 +1,16 @@
+@use "/src/components/stylesheets/index.module.scss" as *;
+
+button {
+  border: 0;
+  padding: 0;
+  margin: 10px;
+
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    color: primary-color;
+    font-weight: 700;
+  }
+}
